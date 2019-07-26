@@ -1,6 +1,9 @@
+a forked package that support md4 for browser 
+
 # create-hash
 
 [![Build Status](https://travis-ci.org/crypto-browserify/createHash.svg)](https://travis-ci.org/crypto-browserify/createHash)
+
 
 Node style hashes for use in the browser, with native hash functions in node.
 
