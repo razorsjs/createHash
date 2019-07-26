@@ -25,7 +25,7 @@ Hash.prototype._final = function () {
 module.exports = function createHash (alg) {
   alg = alg.toLowerCase()
   if (alg === 'md5') return new MD5()
-  if (alg === 'nd4') return MD4.create()
+  if (alg === 'md4') return MD4.create()
   if (alg === 'rmd160' || alg === 'ripemd160') return new RIPEMD160()
 
   return new Hash(sha(alg))
